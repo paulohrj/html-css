@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt0br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url('fontes/World.otf'), url('fontes/Matcha World.ttf');
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'love', Times, serif;
+            font-size: 3em;
+        }
+        /*Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple advanced Typography)
+        - svg
+        */
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tenetur ab quibusdam aspernatur nesciunt quae rem necessitatibus laudantium laboriosam ex eos incidunt, ipsa natus quidem minima maiores pariatur nobis recusandae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda impedit vero rem fuga, provident molestiae cum alias facilis, nobis aperiam commodi totam esse laboriosam voluptatem quisquam laborum vel perferendis cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet omnis iusto exercitationem at excepturi dignissimos vero vel placeat, itaque tempora. Tempora, dolore. Maxime nostrum quae incidunt possimus recusandae iure officiis.
+</body>
+</html>
